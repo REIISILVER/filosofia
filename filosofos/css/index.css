@@ -1,0 +1,205 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  min-width: 100dvh;
+  max-width: auto;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  margin-top:20px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+.introduccion {
+  width: 70%;
+  margin-left:25%;
+}
+
+.introduccion p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+.filosofos_cla{
+  margin-left:25%;
+}
+.filosofos_hel{
+  margin-left:25%;
+}
+
+
+.indice .in:hover,.conc:hover,.fp:hover, .fc:hover, .fh:hover{
+  color: orange;
+
+}
+
+.filosofos_pre {
+  width: 70%;
+  margin-left:25%;
+}
+.body_Card{
+    display:flex;
+    gap:5px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    overflow: none; /* Agregado para permitir scroll si el contenido excede el tamaño */
+  }
+
+  .card .foto{
+    width:100%;
+    height:200px;
+    
+
+  }
+  .card .foto img{
+    width:100%;
+    height:100%;
+    
+  }
+  
+  .card h3 {
+    font-size: 20px; /* Reducido el tamaño del encabezado */
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px; /* Reducido el tamaño del texto de la lista */
+  }
+  
+  .card li {
+    margin-bottom: 6px;
+    
+    padding-left: 16px;
+  }
+  
+  .card li::before {
+    content: "•";
+   
+    color: #007bff;
+  }
+
+  .indice {
+    align-self: flex-start;
+    position: fixed;
+    left: 5%;
+    cursor: pointer;
+    margin-left:20px;
+    font-size:17px;
+    font-weight: bolder;
+  }
+
+  .conclusion {
+    width: 70%;
+    margin-left:25%;
+  }

@@ -105,8 +105,8 @@ header {
   margin-bottom: 20px;
 }
 .introduccion {
-  width: 70%;
-  margin-left:25%;
+  width: 50%;
+  margin-left:40%;
 }
 
 .introduccion p {
@@ -119,10 +119,10 @@ header {
   margin-bottom: 20px;
 }
 .filosofos_cla{
-  margin-left:25%;
+  margin-left:40%;
 }
 .filosofos_hel{
-  margin-left:25%;
+  margin-left:40%;
 }
 
 
@@ -132,8 +132,8 @@ header {
 }
 
 .filosofos_pre {
-  width: 70%;
-  margin-left:25%;
+  width: 50%;
+  margin-left:40%;
 }
 .body_Card{
     display:flex;
@@ -192,7 +192,7 @@ header {
   .indice {
     align-self: flex-start;
     position: fixed;
-    left: 5%;
+    left: 2%;
     cursor: pointer;
     margin-left:20px;
     font-size:17px;
@@ -200,6 +200,6 @@ header {
   }
 
   .conclusion {
-    width: 70%;
-    margin-left:25%;
+    width: 50%;
+    margin-left:40%;
   }

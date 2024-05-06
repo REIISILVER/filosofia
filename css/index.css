@@ -206,12 +206,14 @@ header {
   .bibliografia {
      width: 50%;
     margin-left:40%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+   
   }
 
-.bibliografia a{
- width: 50%;
+.bibliografia p{
+
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  gap: 30px;
 }
 

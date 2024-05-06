@@ -206,4 +206,7 @@ header {
   .bibliografia {
      width: 50%;
     margin-left:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }

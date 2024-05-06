@@ -209,16 +209,17 @@ header {
    
   }
 
-.bibliografia p{
+.bibliografia ul{
 
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
   gap: 30px;
 }
-.biliografia p a {
+.biliografia ul li {
   width: 500px;
   font-size: 13px;
+  overflow: hidden;
 }
 
 

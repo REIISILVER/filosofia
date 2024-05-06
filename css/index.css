@@ -210,3 +210,8 @@ header {
     flex-direction: column;
     gap: 30px;
   }
+
+.bibliografia a{
+ width: 50%;
+}
+
